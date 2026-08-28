@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# JavaScript dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+.vercel/
+
+# PHP dependencies and runtime output
+vendor/
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+bootstrap/cache/*
+public/build/
+public/hot
+public/storage
+
+# Local tooling and OS files
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.pem
+
